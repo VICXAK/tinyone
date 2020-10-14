@@ -1,0 +1,28 @@
+@media (max-width:991px) {
+    .header__nav-collapse {
+        max-width: max-content;
+    }
+    .header__title .header__headline {
+        font-size: 35px;
+    }
+   .header__title .header__description {
+        font-size: 18px;
+    }
+}
+@media (max-width:400px) {
+     .header {
+        padding-top: 30px !important;
+    }
+    .header__social_icons {
+        flex-direction: column;
+    }
+    .header__social_icons .header__social_icon:not(:last-child) {
+        margin-right: 0 !important;
+    }
+    .navbar .header__nav-items {
+        transform: translate(0);
+    }
+    /* .header__nav-items .header__nav-finger {
+        font-size: 24px;
+    } */
+}
