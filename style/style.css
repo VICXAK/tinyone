@@ -141,6 +141,7 @@ body {
 }
 /* HEADER end *
 /* **************************************** */
+
 /* MAIN start */
 /* SECTION-feature start */
 .section__feature {
@@ -220,7 +221,6 @@ body {
     font-weight: 700;
     color: #010101;
     margin-bottom: 26px;
-    
 }
 .section__price-headline {
     font-size: 32px;
@@ -263,27 +263,28 @@ body {
     color: #ffffff;
     background: #010101;
 }
+/* SECTION-price end */
+/* ************************************** */
+
+/* SECTION - works start */
 .section__works-card {
     margin-bottom: 65px;
 }
 .section__works-card-img {
     position: relative;
     width: 100%;
-    height: 255px;
     margin-bottom: 22px;
 }
 .section__works-card-images {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
 }
 .section__works-card-images-btn {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
-    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,12 +300,10 @@ body {
 .section__works-card-icons-eye {
     position: absolute;
     bottom: 0;
-    left: 0;
     padding: 0 0 12px 11px;
     color: #ffffff;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .section__works-icons-eye {
     margin-right: 4px;
@@ -312,7 +311,7 @@ body {
     line-height: 18px;
 }
 .section__works-icons-time {
-    margin-left: 4px;   
+    margin-left: 4px;
     font-size: 22px;
     line-height: 18px;
 }
@@ -327,7 +326,6 @@ body {
     color: #ffffff;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .section__works-card-title {
     font-size: 22px;
@@ -340,14 +338,220 @@ body {
     color: #898989;
     text-align: center;
 }
-
-
-
-/* SECTION-price end */
+/* SECTION - works end*/
 /* *************************************** */
+/* SECTION-our-team start */
+.section__team-title {
+    font-size: 32px;
+    color: #010101;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.section__team-description {
+    font-size: 20px;
+    color: #898989;
+    margin-bottom: 76px;
+}
+.section__team-photo {
+    margin-bottom: 42px;
+}
+.section__team-headline {
+    font-size: 22px;
+    color: #010101;
+    margin-bottom: 13px;
+}
+.section__team-speс {
+    font-size: 16px;
+    color: #898989;
+    margin-bottom: 16px;
+}
+.section__team-desc {
+    font-size: 14px;
+    color: #313841;
+    margin-bottom: 14px;
+}
+.section__team-icon {
+    font-size: 16px;
+    color: #010101;
+}
+.section__team-icon:not(:last-child) {
+    margin-right: 10px;
+}
+.section__team {
+    margin-bottom: 188px;
+}
+.section__team_pseudo:not(:last-child) .section__team-card {
+    margin-bottom: 46px;
+}
+/* SECTION-our-team end */
+/* *************************************** */
+/* SECTION-stats start */
+.section__stats-images {
+    margin-bottom: 18px;
+}
+.section__stats-title {
+    font-size: 22px;
+    color: #010101;
+    margin-bottom: 12px;
+}
+.section__stats-spec {
+    font-size: 16px;
+    color: #898989;
+    margin-bottom: 32px;
+}
+.section__stats-block {
+    font-size: 20px;
+    color: #898989;
+    display: flex;
+}
+.section__stats-block::before {
+    font-family: "Font Awesome 5 Pro"; font-weight: 700; content: "\f10d";
+    font-size: 24px;
+    color: #898989;
+    padding-right: 12px;
+}  
+.section__stats-block::after {
+    font-family: "Font Awesome 5 Pro"; font-weight: 700; content: "\f10e";
+    font-size: 24px;
+    color: #898989;
+    align-self: flex-end;
+    padding-left: 12px;
+}  
+.section__stats {
+    margin-bottom: 216px;
+}
+/* SECTION-stats end */
+/* *************************************** */
+/* SECTION-contacts start */
+.section__contacts-title {
+    font-size: 32px;
+    color: #010101;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+.section__contacts-desc {
+    color: #898989;
+    font-size: 20px;
+    margin-bottom: 49px;
+}
 
+.section__contacts-icon {
+    color: #2d2d2d;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.section__contacts-headline {
+    font-size: 24px;
+    color: #010101;
+}
+.section__contacts-description {
+    font-size: 14px;
+    color: #898989;
+}
+.section__contacts {
+    margin-bottom: 43px;
+}
+/* SECTION-contacts end */
+/* *************************************** */
+/* SECTION-form start */
+.section__form-input {
+    border: 2px solid #000000;
+    margin-bottom: 25px;
+    display: block;
+    padding: 18px 0 18px 16px;
+    font-size: 16px;
+    color: #898989;
+    text-transform: capitalize;
+    line-height: 20px;
+    resize: none;
+}
+.section__form-btn {
+    padding: 20px 29px;
+    color: #ffffff;
+    background: #000000;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    font-family: 'SourceSansPro';
+    transition: all .5s;
+}
+.section__form-btn:hover {
+    background: rgba(0, 0, 0, 0.80);
+}
+.section__form {
+    margin-bottom: 76px;
+}
+/* SECTION-form end */
+/* *************************************** */
 /* MAIN end */
 /* *************************************** */
+/*  FOOTER start */
+.footer {
+    background: #010101;
+    padding: 96px 0 280px 0;
+}
+.section__footer-title {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 19px;
+    font-weight: 700;
+}
+.section__footer-desc {
+    font-size: 20px;
+    color: #898989;
+    margin-bottom: 40px;
+}
+.section__footer-email {
+    max-width: 597px;
+    width: 100%;
+    border: none;
+    padding: 19px 0 19px 24px;
+    color: #898989;
+    font-size: 16px;
+    line-height: 20px;
+    outline: none;
+    margin-right: 6px;
+}
+.section__footer-submit {
+    display: inline-block;
+    padding: 19px 40px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    background: #010101;
+    transition: all .5s;
+}
+.section__footer-submit:hover {
+    background: #ffffff;
+    color: #010101;
+}
+.footer__info {
+margin-bottom: 114px;
+}
+ul li {
+    list-style: none;
+}
+.footer__info-margin {
+    margin-right: 46px;
+}
+.footer__list {
+    color: #898989;
+    font-size: 16px;
+}
+.footer__list a {
+    color: #898989;
+    transition: all .5s;
+}
+.footer__list a:hover {
+    color: #ffffff;
+}
+
+/*  FOOTER end */
+/* ************************************** */
 
 
 
